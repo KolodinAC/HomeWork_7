@@ -74,6 +74,11 @@ public static class Helper                   // определили пабли�
         Console.WriteLine("[{0}]", string.Join(", ", collection));
     }
 
+    public static void PrintArrayD(double[] collection)
+    {
+        Console.WriteLine("[{0}]", string.Join(", ", collection));
+    }
+
     public static void PrintUintArray(uint[] collection)     // печать массива на основе uint (тобишь только с положительными целыми числами)
     {
         Console.WriteLine("[{0}]", string.Join(", ", collection));
